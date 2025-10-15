@@ -1,0 +1,57 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding:10px;
+    font-size:20px;
+    border-radius:20px;
+    margin-top:10%;
+    margin-left:50px;
+}
+#parent{
+    height:700px;
+    width:600px;
+    margin-left:25px;
+    background-color:aqua;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px;
+    margin: auto;
+}
+#loader{
+    height:500px;
+    width:500px;
+    border: 10px solid yellow;;
+    border-top:10px solid blue;
+    border-radius:50%;
+    margin:auto;
+}
+#indicator{
+    height: 30px;
+    width:30px;
+    border:2px solid black;
+    border-radius:50%;
+}
+button:hover{
+    cursor:pointer;
+}
+#on:active{
+    background-color: green;
+    color:white;
+
+}
+#off:active{
+    background-color:red;
+    color:white;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
